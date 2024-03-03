@@ -32,7 +32,7 @@ public class App {
         }
         leitor.close();
 
-        System.out.println("Playlist Atual:");
+        System.out.println("Playlist:");
         for (Musicas mu : lista_de_musicas) {
             System.out.format("\nNome: %s \nArtista: %s \nGênero: %s \nDuração: %.2f minutos. \n", mu.getNome(), mu.getArtista(), mu.getGenero(), mu.getDuracao());
         }
